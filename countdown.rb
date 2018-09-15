@@ -1,9 +1,9 @@
 #write your code here
 
-def countdown(number)
-  number = number.to_i
-  while number > 1
-    number -= 1
+def countdown(integer)
+  integer = integer.to_i
+  while integer > 1
+    integer -= 1
     puts "#{integer} SECOND(S)!"
     sleep(1)
   end
