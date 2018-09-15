@@ -9,3 +9,13 @@ def countdown(integer)
   end
     return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep
+  integer = integer.to_i+1
+  while integer > 1
+    integer -= 1
+    puts "#{integer} SECOND(S)!"
+    sleep(5)
+  end
+    return "HAPPY NEW YEAR!"
+end
