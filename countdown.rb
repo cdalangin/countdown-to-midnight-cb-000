@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(integer)
-  integer = integer.to_i
+  integer = integer.to_i+1
   while integer > 1
     integer -= 1
     puts "#{integer} SECOND(S)!"
